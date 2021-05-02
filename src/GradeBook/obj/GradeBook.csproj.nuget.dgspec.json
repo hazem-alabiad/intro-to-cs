@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hazem\\ws\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
+    "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hazem\\ws\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hazem\\ws\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\hazem\\ws\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hazem\\ws\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hazem\\AppData\\Roaming\\NuGet\\NuGet.Config"

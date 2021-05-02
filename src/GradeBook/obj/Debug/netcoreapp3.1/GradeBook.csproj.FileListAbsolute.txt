@@ -11,3 +11,16 @@ C:\Users\hazem\ws\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.cspr
 C:\Users\hazem\ws\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 C:\Users\hazem\ws\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
 C:\Users\hazem\ws\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\hazem\ws\intro-to-cs\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache

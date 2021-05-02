@@ -4,40 +4,42 @@ using System.Linq;
 
 namespace GradeBook
 {
-  class Book
+  public class Book
   {
-    // **********************************************
-    // *****************   Fields    ****************    
-    // **********************************************
-    private List<double> grades;
-    private double lowestGrade;
-    private double highestGrade;
     // **********************************************
     // *****************   Methods   ****************
     // **********************************************
-    public Book()
+    public Book(string name)
     {
       grades = new List<double>();
-      lowestGrade = double.MaxValue;
-      highestGrade = double.MinValue;
+
+      Name = name;
     }
     public void addGrade(double grade)
     {
       grades.Add(grade);
-      lowestGrade = Math.Min(lowestGrade, grade);
-      highestGrade = Math.Max(highestGrade, grade);
     }
-    public void showStatistics()
+    public Statistics getStatistics()
     {
-      var avg = 0.0;
+      var result = new Statistics();
+      result.low = double.MaxValue;
+      result.high = double.MinValue;
+      result.average = 0.0;
       foreach (var grade in grades)
       {
-        avg += grade;
+        result.average += grade;
+        result.low = Math.Min(result.low, grade);
+        result.high = Math.Max(result.high, grade);
       }
-      avg /= grades.Count;
-      System.Console.WriteLine($"The lowest grade: [{lowestGrade}]");
-      System.Console.WriteLine($"The highest grade: [{highestGrade}]");
-      System.Console.WriteLine($"The average grade: [{avg:N1}]");
+      result.average /= grades.Count;
+      result.average = Math.Round(result.average, 1);
+      return result;
     }
+
+    // **********************************************
+    // *****************   Fields    ****************    
+    // **********************************************
+    private List<double> grades;
+    public string Name;
   }
 }

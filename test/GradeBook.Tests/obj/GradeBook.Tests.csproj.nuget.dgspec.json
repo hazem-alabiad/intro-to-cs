@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hazem\\ws\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+    "C:\\Users\\hazem\\ws\\intro-to-cs\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hazem\\ws\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+    "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hazem\\ws\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-        "projectName": "GradeBook.Tests",
-        "projectPath": "C:\\Users\\hazem\\ws\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hazem\\ws\\gradebook\\test\\GradeBook.Tests\\obj\\",
+        "outputPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hazem\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,6 +25,60 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hazem\\ws\\intro-to-cs\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hazem\\ws\\intro-to-cs\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectName": "GradeBook.Tests",
+        "projectPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "packagesPath": "C:\\Users\\hazem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\test\\GradeBook.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hazem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "C:\\Users\\hazem\\ws\\intro-to-cs\\src\\GradeBook\\GradeBook.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
